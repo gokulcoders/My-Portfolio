@@ -1,0 +1,39 @@
+/* Project.css */
+.project {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .project div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://c.wallhere.com/photos/03/0d/background_spots_bright_solid-637272.jpg!d");
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .project:hover div {
+    opacity: 1;
+  }
+  
+  .project div p {
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    
+  }

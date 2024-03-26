@@ -1,0 +1,39 @@
+/* Education.css */
+
+#education {
+    
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.education-entry {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.education-entry:hover {
+    transform: scale(1.05); 
+}
+
+.education-entry h3 {
+    color: #3498db;
+}
+
+.education-degree {
+    font-weight: bold;
+}
+
+.education-date {
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
