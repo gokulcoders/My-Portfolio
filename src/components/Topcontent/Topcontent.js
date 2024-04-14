@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import "./Topcontent.css";
+import "./resume.jpg";
 
 const Topcontent = () => {
   const [typedH1, setTypedH1] = useState('');
@@ -8,7 +9,7 @@ const Topcontent = () => {
 
   const textToType = {
     h1: "Mr. Gokul",
-    p: "A Professional Web and App Developer",
+    p: "A Professional Web and App Developer ",
   };
 
   useEffect(() => {
@@ -46,15 +47,13 @@ const Topcontent = () => {
       <div className="topcontent_container">
         <h1>{typedH1}</h1>
         <p>{typedP}</p>
-        <a href="www.google.com">
+        <a href="./resume.jpg" download="resume.jpg">
           <button className="topcontent_downloadbutton">Download CV</button>
         </a>
         <Link to="projects" smooth={true} duration={500}>
           <button className="topcontent_workbutton">My Work</button>
         </Link>
       </div>
-
-      
     </div>
   );
 }

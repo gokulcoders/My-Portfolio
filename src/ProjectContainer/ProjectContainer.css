@@ -1,65 +1,75 @@
-
-
 .projectcontainer {
-    background-color: #f7f7f7;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .projectcontainer h1 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .projectcontainer p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
+  background-color: transparent;
+  padding: 50px 0;
+  text-align: center;
+  color: black;
+}
+
+.projectcontainer h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.projectcontainer p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.projectcontainer__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center projects horizontally */
+  margin-top: 30px;
+}
+
+.project {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  color: #fff;
+  text-align: center;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
   .projectcontainer__projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 30px;
+    flex-direction: column; /* Stack projects vertically on smaller screens */
+    align-items: center; /* Center projects vertically */
   }
-  
+
   .project {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    width: calc(100% - 40px); /* Adjust width to fit screen width with margin */
   }
-  
-  .project img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .project div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .project:hover {
-    transform: scale(1.05);
-  }
-  
-  .project:hover img {
-    opacity: 0.7;
-  }
-  
-  .project:hover div {
-    opacity: 1;
-  }
-  
+}
