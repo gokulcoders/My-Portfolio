@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react_upload/static/css/main.522d2b55.css",
-    "main.js": "/react_upload/static/js/main.6f1498c2.js",
-    "static/js/592.8194ee25.chunk.js": "/react_upload/static/js/592.8194ee25.chunk.js",
-    "static/media/myphoto.jpg": "/react_upload/static/media/myphoto.fd85ad8c0fbb7df0f2f7.jpg",
-    "static/media/skills.jpg": "/react_upload/static/media/skills.a1b73bdd4a6c75842a37.jpg",
-    "index.html": "/react_upload/index.html",
-    "main.522d2b55.css.map": "/react_upload/static/css/main.522d2b55.css.map",
-    "main.6f1498c2.js.map": "/react_upload/static/js/main.6f1498c2.js.map",
-    "592.8194ee25.chunk.js.map": "/react_upload/static/js/592.8194ee25.chunk.js.map"
+    "main.css": "/mywork/static/css/main.7ef83bf2.css",
+    "main.js": "/mywork/static/js/main.7ef3631e.js",
+    "static/js/592.8194ee25.chunk.js": "/mywork/static/js/592.8194ee25.chunk.js",
+    "static/media/resume.jpg": "/mywork/static/media/resume.5671fc03f1ed6962f2a1.jpg",
+    "static/media/skills.jpg": "/mywork/static/media/skills.a1b73bdd4a6c75842a37.jpg",
+    "static/media/myphoto.jpg": "/mywork/static/media/myphoto.6afc403f852d3eb51ed8.jpg",
+    "index.html": "/mywork/index.html",
+    "main.7ef83bf2.css.map": "/mywork/static/css/main.7ef83bf2.css.map",
+    "main.7ef3631e.js.map": "/mywork/static/js/main.7ef3631e.js.map",
+    "592.8194ee25.chunk.js.map": "/mywork/static/js/592.8194ee25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.522d2b55.css",
-    "static/js/main.6f1498c2.js"
+    "static/css/main.7ef83bf2.css",
+    "static/js/main.7ef3631e.js"
   ]
 }
